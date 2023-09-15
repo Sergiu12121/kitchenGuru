@@ -1,0 +1,37 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+:root {
+  --primary-color: #ccd1e4;
+}
+
+.acordeon {
+  max-width: 15rem;
+  margin-bottom: 0.5rem;
+}
+
+.acordeon button {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.acordeon button:hover {
+  background: var(--primary-color);
+}
+
+.acordeon .content {
+  padding: 0.5rem;
+  background: #f7f7f7;
+}
+
+.Kitchen{
+  text-align: left;
+}
